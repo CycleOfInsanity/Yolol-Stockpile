@@ -1,0 +1,629 @@
+Item Name
+  Small Printer 
+  Large Printer
+
+YOLOL Fields
+  PrintingRate
+  WorkingRateLimit
+  WorkingRate
+  CurrentItemWorkRemaining    
+  UtilityConnection    
+  PrinterControl
+  PrinterStatus
+  PrinterOrderAmount
+  CurrentItem
+  BlueprintItemCount
+------------------------------
+ 
+Item Name
+  Audio signal device mark 1
+
+YOLOL Fields
+  SoundOn
+  TriggerRule
+  TriggerValue
+  InputValue
+  SoundCategory
+  SoundType
+  RetriggerRate
+  RetriggerAmount
+  Priority
+  Radius
+ 
+------------------------------
+ 
+Item Name
+  Battery
+
+YOLOL Fields
+  BatteryPriority
+  StoredBatteryPower
+  MaxBatteryPower
+ 
+------------------------------
+ 
+Item Name
+  Box thruster
+
+YOLOL Fields
+  ThrusterState
+  ThrusterCurrentThrust
+
+------------------------------
+ 
+Item Name
+  Small button, Hybrid button & Twist handle
+
+YOLOL Fields
+  ButtonState
+  ButtonOnStateValue
+  ButtonOffStateValue
+  ButtonStyle
+
+------------------------------
+ 
+Item Name
+  Warning light button
+
+YOLOL Fields
+  ButtonState
+  ButtonStyle
+  ButtonColor
+  ButtonEnableBlink
+ 
+------------------------------
+ 
+Item Name
+  Simple buttons & Switch
+
+YOLOL Fields
+  ButtonState
+  ButtonStyle
+  ButtonColor
+ 
+------------------------------
+ 
+Item Name
+  Safety lid buttons
+
+YOLOL Fields
+  ButtonState
+  ButtonOnStateValue
+  ButtonOffStateValue
+  ButtonStyle
+  ButtonColor
+  ButtonEnableBlink
+ 
+------------------------------
+ 
+Item Name
+  Cargo lock beam
+
+YOLOL Fields
+  CargoBeamOnState
+  CargoBeamSearchLength
+  CargoBeamStatus
+
+------------------------------
+Item Name
+  Cargo lock frame (Assembly)
+
+YOLOL Fields
+  CargoFrameState
+ 
+------------------------------
+Item Name
+  YOLOL Chip (all)
+
+YOLOL Fields
+  ChipWait
+ 
+------------------------------
+ 
+Item Name
+  Coolant recharge rack
+
+YOLOL Fields
+  CoolantRechargeRateLimit
+  CoolantRechargeRate
+
+------------------------------
+ 
+Item Name
+  Cooling rack
+
+YOLOL Fields
+  CoolerUnitRateLimit
+  CoolerUnitRate
+ 
+------------------------------
+ 
+Item Name
+  Turret cradle
+
+YOLOL Fields
+  TurretPitch
+  TurretCurrentPitch
+  MaxRotation
+  MinRotation
+  TargetVelocity
+ 
+------------------------------
+ 
+Item Name
+  Fast travel gate core (assembly)
+
+YOLOL Fields
+  TravelCoreAssembled
+ 
+------------------------------
+ 
+Item Name
+  Flight control unit (Basic,Advanced,Professional)
+
+YOLOL Fields
+  FcuMfcIO
+  FcuInputRange
+  FcuGeneralMultiplier
+  FcuForward
+  FcuBackward
+  FcuRotationalPitch
+  FcuRotationalYaw
+  FcuRotationalRoll
+  FcuUpDown (Advanced)
+  FcuRightLeft (Advanced)
+  FcuFwdBwdPitch (Professional)
+  FcuFwdBwdYaw (Professional)
+  FcuFwdBwdRoll (Professional)
+ 
+------------------------------
+ 
+Item Name
+  Fuel chamber
+
+YOLOL Fields
+  FuelChamberFuel    
+  FuelChamberMaxFuel    
+  FuelChamberUnitRateLimit
+  FuelChamberUnitRate
+ 
+------------------------------
+ 
+Item Name
+  Fuel rod
+
+YOLOL Fields
+  StoredRawFuel
+  MaxRawFuel
+ 
+------------------------------
+ 
+Item Name
+  Generator Unit
+
+YOLOL Fields
+  GeneratorUnitRateLimit
+  GeneratorUnitRate
+ 
+------------------------------
+ 
+Item Name
+  Socket Board
+
+YOLOL Fields
+  SocketUnitRateLimit
+  SocketUnitRate
+ 
+------------------------------
+ 
+Item Name
+  Pipe Socket Board
+
+YOLOL Fields
+  RadiatorCoolingRateLimit
+  RadiatorCoolingRate
+ 
+------------------------------
+ 
+Item Name
+  Radiator
+
+YOLOL Fields
+  RadiationRateLimit
+  RadiationRate
+  StoredRadiatorCoolant
+  MaxRadiatorCoolant
+ 
+------------------------------
+ 
+Item Name
+  Radiator Extension
+
+YOLOL Fields
+  RadiationRateLimit
+  RadiationRate
+ 
+------------------------------
+ 
+Item Name
+  Hinges
+
+YOLOL Fields
+  DoorOpenState
+  DoorCurrentState
+  EndAngle / EndPosition    
+  StartAngle / StartPosition    
+  TargetVelocity
+ 
+------------------------------
+ 
+Item Name
+ Sliders
+
+YOLOL Fields
+  DoorOpenState
+  DoorCurrentState
+  EndPosition
+  StartPosition
+  TargetVelocity
+ 
+------------------------------
+ 
+Item Name
+  Information screen
+
+YOLOL Fields
+  InfoScreenContent
+ 
+------------------------------
+ 
+Item Name
+  Lamps
+
+YOLOL Fields
+  LampOn
+ 
+------------------------------
+ 
+Item Name
+  Laser designator (Assembly)
+
+YOLOL Fields
+  Active
+  LaserLength
+  IdentifierId
+  TargetFound
+ 
+------------------------------
+ 
+Item Name
+  Levers
+
+YOLOL Fields
+  LeverState
+  LeverMinOutput
+  LeverMaxOutput
+  LeverCenterOutput
+  LeverCenterDeadZone
+  LeverCenteringSpeed
+  LeverBindsMoveSpeed
+ 
+------------------------------
+ 
+Item Name
+  Main flight computer
+
+YOLOL Fields
+  FcuMfcIO1
+  FcuMfcIO2
+  ThrusterPowerLevel01 - 50    
+ 
+------------------------------
+ 
+Item Name
+  Maneuver thruster
+
+YOLOL Fields
+  ThrusterState
+  ThrusterCurrentThrust
+
+------------------------------
+ 
+Item Name
+  Material point scanner
+
+YOLOL Fields
+  Active
+  Index
+  ScanResults
+  Material
+  Volume
+  Scan
+  Reset
+ 
+------------------------------
+ 
+Item Name
+  YOLOL memory chip
+
+YOLOL Fields
+  ChipField1-10
+ 
+------------------------------
+ 
+Item Name
+  Memory relay
+
+YOLOL Fields
+  IsMasterEnabled
+  IsEnabled
+ 
+------------------------------
+ 
+Item Name
+  Mining laser
+
+YOLOL Fields
+  MiningLaserOn
+  MiningLaserBeamLength
+
+------------------------------
+ 
+Item Name
+  Modular device rack
+
+YOLOL Fields
+  CurrentState
+  OnState
+  OffState
+  ButtonStyle
+
+------------------------------
+ 
+Item Name
+  Progress Bars
+
+YOLOL Fields
+  PanelValue 
+  PanelMinValue
+  PaneMaxValue
+  PanelVariableResolution
+
+------------------------------
+ 
+Item Name
+  Text Panel
+
+YOLOL Fields
+  PanelValue 
+  PanelVariableResolution
+
+------------------------------
+ 
+Item Name
+  Modular ore cargo crate
+
+YOLOL Fields
+  Priority
+ 
+------------------------------
+ 
+Item Name
+  Network relay
+
+YOLOL Fields
+  IsMasterEnabled
+  IsEnabled
+ 
+------------------------------
+ 
+Item Name
+  Ore collector
+
+YOLOL Fields
+  ToggleOn
+  Power
+ 
+------------------------------
+ 
+Item Name
+  Plasma thruster
+
+YOLOL Fields
+  ThrusterState
+  ThrusterCurrentThrust
+  isActive
+  chargeLevel
+
+------------------------------
+ 
+Item Name
+  Propellant tank support
+
+YOLOL Fields
+  IsOpenId
+  FlowId
+  GasNetworkStoredResource
+  GasNetworkMaxResource
+ 
+------------------------------
+ 
+Item Name
+  Propellant tank
+
+YOLOL Fields
+  GasContainerStoredResource
+  GasContainerMaxResource
+ 
+------------------------------
+ 
+Item Name
+  Navigation receivers
+
+YOLOL Fields
+  Message
+  SignalStrength
+  ListenAngle
+  TargetMessage
+  TargetFrequency
+  Frequency
+  ReceiverPitch
+  ReceiverCurrentPitch
+  MaxRotation
+  MinRotation
+  TargetVelocity
+ 
+------------------------------
+ 
+Item Name
+  Rail mover
+
+YOLOL Fields
+  speed
+  RailMoverTriggerValue
+
+------------------------------
+ 
+Item Name
+  Rangefinder
+
+YOLOL Fields
+  RangeFinderOnState
+  RangeFinderSearchLength
+  RangeFinderDistance
+ 
+------------------------------
+ 
+Item Name
+  Resource Bridge
+
+YOLOL Fields
+  State
+  FlowIn
+  FlowOut
+ 
+------------------------------
+ 
+Item Name
+  Robotic arms
+
+YOLOL Fields
+  TargetArmLength
+  CurrentArmLength
+  EndPosition
+  StartPosition
+  TargetVelocity
+  TargetArmAngle
+  CurrentArmAngle
+  MaxRotation
+  MinRotation
+  TargetVelocity
+ 
+------------------------------
+ 
+Item Name
+  Ship diagnostic scanner
+
+YOLOL Fields
+  Active
+  StrengthFactor
+  DurabilityErrors
+ 
+------------------------------
+ 
+Item Name
+  Ship transponder
+
+YOLOL Fields
+  transponderActive
+  transponderOwner
+  transponderShipName
+  insideSafezone
+  playerDamage
+  shipDamage
+  collisionDamage
+  stationsAllowed
+ 
+------------------------------
+ 
+Item Name
+  Solar panel light sensor
+
+YOLOL Fields
+  LightDetected
+  LightOffsetVertical
+  LightOffsetHorizontal
+ 
+------------------------------
+ 
+Item Name
+  Solar power converter
+
+YOLOL Fields
+  ConverterPriority
+  ConverterOutput
+  ArrayAreaTotal
+ 
+------------------------------
+ 
+Item Name
+  Torpedo launcher
+
+YOLOL Fields
+  tube
+  LauncherLock
+  selectedTube
+  tubeStatus
+  launchTorpedo
+ 
+------------------------------
+ 
+Item Name
+  Tractor beam
+
+YOLOL Fields
+  tractorBeamOnState
+  tractorBeamSoftRelease
+  tractorBeamSnapToObjects
+  tractorBeamSearchLength
+  tractorBeamForce
+  tractorBeamTorque
+  tractorBeamPosition
+  tractorBeamYaw
+  tractorBeamPitch
+  tractorBeamRoll
+  tractorBeamObjectInBeam
+  tractorBeamForceApplied
+  tractorBeamTorqueApplied
+ 
+------------------------------
+ 
+Item Name
+  Triangle thruster
+
+YOLOL Fields
+  ThrusterState
+  ThrusterState
+ 
+------------------------------
+ 
+Item Name
+  Turntable
+
+YOLOL Fields
+  TurretRotation
+  TurretCurrentRotation
+  MaxRotation
+  MinRotation
+  TargetVelocity
+ 
+------------------------------
+ 
+Item Name
+  Utility tool capacitor
+
+YOLOL Fields
+  StoredLocalPower
+  MaxLocalPower
+ 
+------------------------------
