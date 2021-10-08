@@ -1,0 +1,20 @@
+__________________________________
+Author-
+  Jarusca
+  
+Script-
+  if :Sc==1 then if :Rs>0 then :Rst=1 end goto2 else goto1 end
+  :ScSt=1 if :Rs>0 then :Sc=0 i=0 :_="Ores :_"+"\n" goto3 else goto2 end
+  if i<:Rs then :ScIdx=i :_+=:Mat+"\n"+:Vol+"\n" i++ goto3 end goto1
+Variables-
+  **WITHIN THE LINK**
+
+Authors Notes-
+  https://www.reddit.com/r/starbase/comments/pa2rk0/i_made_a_very_fast_scanner_script/
+__________________________________
+
+
+
+
+
+
