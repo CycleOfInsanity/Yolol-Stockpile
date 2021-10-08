@@ -1,0 +1,31 @@
+__________________________________
+Author-
+  Soft-Sharp
+Script-
+  on=:LightDetected
+  if :SolAlign==1 then goto 4 else goto 1 end
+  if on==0 then :FcuRotationalRoll=10 goto 1 end
+  if :SolAlign==0 then :GenOff=1 goto 1 end
+
+  //4 lines emptyness here
+  //needed to give the ship time to slow down again
+  //Otherwise we could have some nasty looping
+  oh=:LightOffsetHorizontal
+  if oh>10 then :FcuRotationalRoll=10 goto 4 end
+  if oh<-10 then :FcuRotationalRoll=-10 goto 4 end
+  ov=:LightOffsetVertical 
+  if ov>10 then :FcuRotationalPitch=-6 goto 4 end
+  if ov<-10 then :FcuRotationalPitch=6 goto 4 end
+  :GenOff=0 goto 4
+
+Variables-
+  SolAlign=Name of the Button
+  FcuRotationalRoll=Your roll lever
+  FcuRotationalPitch=Your pitch lever
+  LightOffsetHorizontal=Horizontal offset from light sensor
+  LightOffsetVertical=Vertical offset from light sensor
+  GenOff=Your generator off button
+  
+Authors Notes-
+  https://www.reddit.com/r/starbase/comments/pbindu/so_i_wrote_a_solar_alignment_script_for_ships/
+__________________________________
