@@ -7,3 +7,10 @@ Script-
 Variables-
 Authors Notes-
 __________________________________
+
+
+This is the link to the discord if you have files you want to sort or just to ask questions about hte information there
+https://discord.gg/W3482XkfFv
+
+This is the discord link to Cylons discord
+https://discord.gg/FTc6Rm5jup
