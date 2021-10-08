@@ -24,3 +24,15 @@ Authors Notes-
   Use of this script is to have the Generators warmed up to be able to consistenly use the mining laser.
   **THESE VALUES ARE FOR THE ORIGINAL SHIP THE "BUFFALO" VALUES MAY DIFFER PLAYER TO PLAYER**
 __________________________________
+Author-
+ Alkash
+
+Script-
+ 1):GeneratorUnitRateLimit=:Generator+:Manual
+
+Variables-
+ :GenRate=script reading the battery :Manual=Operator set value via lever
+
+Authors Notes-
+ Used to keep the generators WARM at the operators desire
+__________________________________
