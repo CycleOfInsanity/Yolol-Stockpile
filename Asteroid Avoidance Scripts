@@ -1,11 +1,21 @@
-```haskell
-code shit here
-```
+__________________________________
+Author-
+  Cycle_Of_Insanity#3074
 
+Script-
 
+1) goto(AAS+1)
+2) FCU(THETA)=(y<1000)100 goto(AAS+1)
 
+Variables-
+:AAS=Astroid Avoidance Button
+:y=Range Finder Distance
+:Theta=The Affected FCU
 
-
-
-
-
+Authors Notes-
+  Each zone needs its own chip, and its own set of range finders
+__________________________________
+Author-
+Script-
+Variables-
+Authors Notes-
