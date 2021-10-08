@@ -1,0 +1,26 @@
+__________________________________
+Author-
+  **GENERAL SCRIPT**
+
+Script-
+  "1):GenRate=100-(:Battery/100) goto1"
+
+Variables-
+  :GeneratorUnitRateLimit=:Gen  :StoredBatteryPower=:Battery
+
+Authors Notes-
+__________________________________
+Author-
+  Archaegeo
+
+Script-
+  1) if:MLOS then:GLM=65 goto1end
+  2)if:B<10000then:GLM=100-:B/100else:GLM=0end goto1
+
+Variables-
+  :MOLS= Mining Laser On :GLM=Generator mining laser :B=StoredBatteryPower
+
+Authors Notes-
+  Use of this script is to have the Generators warmed up to be able to consistenly use the mining laser.
+  **THESE VALUES ARE FOR THE ORIGINAL SHIP THE "BUFFALO" VALUES MAY DIFFER PLAYER TO PLAYER**
+__________________________________
