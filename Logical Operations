@@ -1,0 +1,14 @@
+In logic True=1 False=0
+
+Operation    Numeric operation                     String operation **
+--------------------------------------------------------------------------------------
+
+A < B             Less than                            if A is less than B then true if else then false
+A > B             Greater than                         if A is greater than B then true if else then false
+A <= B            Less than or equal to                if A is less than or equal to B then true else false
+A >= B            Greater than or equal to             returns 0 if String A is first in alphabetical order or identical to String B, returns 1 if not.
+A != B            Not equal to                         returns 1 if String A is not equal to String B, 0 if it is.
+A == B            Equal to                             returns 1 if String A is equal to String B, 0 if not.
+NOT A             Not                                  returns 1 if A is 0, otherwise returns 0.
+A AND B           And                                  returns 1 if neither A nor B are 0, otherwise returns 0.
+A OR B            Or                                   returns 1 if either A or B is not 0, otherwise returns 0.  
