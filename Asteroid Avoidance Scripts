@@ -1,21 +1,36 @@
 __________________________________
 Author-
-  Cycle_Of_Insanity#3074
-
+  **GENERAL SCRIPT**
 Script-
-
-1) goto(AAS+1)
-2) FCU(THETA)=(y<1000)100 goto(AAS+1)
+  1) goto(AAS+1)
+  2) FCU(THETA)=(y<1000)100 goto(AAS+1)
 
 Variables-
-:AAS=Astroid Avoidance Button
-:y=Range Finder Distance
-:Theta=The Affected FCU
+  :AAS=Astroid Avoidance Button
+  :y=Range Finder Distance
+  :Theta=The Affected FCU
 
 Authors Notes-
-  Each zone needs its own chip, and its own set of range finders
+  This is a basic astroid avoidance script, There should be at least 4 chips running this with 4 diffrent zones to be able to effectly Avoid.
 __________________________________
 Author-
 Script-
+  1)goto :Avoid*((:US+:DS+:LS+:RS)<4000)*2
+  2)i=2*(:DS<1000)-:US<1000 :FcuUpDown+=100*i
+  3)i=2*(:LS<1000)-:RS<1000 :FcuRightLeft+=100*i goto (i==0)*4
+  4):FcuUpDown=0 :FcuRightLeft=0 goto1
+
 Variables-
+  :Avoid=Avoidancebutton
+  :US=Top Range Finders
+  :DS=Bottom Range Finders
+  :LS=Left Range Finders
+  :RS=Right Range Finders
+  :FcuUpDown=Value on FCU
+  :FcuRightLeft=Value on FCU
+  i=temporary value 
+
 Authors Notes-
+ 
+__________________________________
+
