@@ -1,0 +1,13 @@
+__________________________________
+Author-
+  Cycle
+
+Script-
+  1):EnergyPerSecond=:GeneratorUnitRate*10*:X goto1
+
+Variables-
+  :EnergyPerSecond=Used as the final value :X=Number of Tier one or Teir two generator units within the system
+
+Authors Notes-
+  Set a display as its used in junction with the DishargePerSecond script so the operator can take readings of the system.
+__________________________________
