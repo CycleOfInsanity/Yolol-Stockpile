@@ -1,0 +1,14 @@
+__________________________________
+Author-
+  SilverZero
+
+Script-
+  1):ROC=-X*5*(bat-:Battery) bat=:Battery goto1
+
+Variables-
+  :DPS=Discharge Per Second :bat=Short term StoredBatteryPower value   :Battery=StoredBatteryPower X=Number of batterys
+
+Notes-
+  Used to calculate dischage of batterys 
+  **USED IN JUNCTION WITH E/S SCRIPT**
+__________________________________
