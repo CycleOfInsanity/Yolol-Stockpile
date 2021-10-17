@@ -3,7 +3,7 @@ Author-
   **GENERAL SCRIPT**
 
 Script-
-  "1):GenRate=100-(:Battery/100) goto1"
+  1):GeneratorUnitRateLimit=100-(:StoredBatteryPower/100) goto1
 
 Variables-
   :GeneratorUnitRateLimit=:Gen  :StoredBatteryPower=:Battery
@@ -28,7 +28,7 @@ Author-
  Alkash
 
 Script-
- 1):GeneratorUnitRateLimit=:Generator+:Manual
+ 1):GeneratorUnitRateLimit=:GeneratorUnitRate+:Manual goto1
 
 Variables-
  :GenRate=script reading the battery :Manual=Operator set value via lever
